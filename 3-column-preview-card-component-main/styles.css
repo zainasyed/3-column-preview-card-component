@@ -1,0 +1,107 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background-color: white;
+  font-family: "Lexend Deca",sans-serif;
+}
+
+
+p{
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.6;
+  font-weight: lighter;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+h1{
+  font-family: "Big Shoulders Display",cursive;
+   text-transform: uppercase;
+  color:hsl(0, 0%, 95%);
+margin-bottom: 20px;
+}
+.container{
+  display:flex;
+  flex-direction: column;
+padding: 20px;
+text-align: left;
+}
+
+.section1{
+  padding: 30px;
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 10px 0 0 ;
+}
+
+.section2{
+  padding: 30px;
+  background-color: hsl(184, 100%, 22%);
+
+}
+
+.section3{
+  padding: 30px;
+  background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+}
+
+button{
+  background-color: #fff;
+  border:2px solid #fff;
+  border-radius: 28px;
+  padding: 10px 20px 10px 20px;
+  font-family: "Lexend Deca",sans-serif;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+button:hover{
+  background-color: transparent;
+  color:#fff;
+}
+.button1{
+  color:hsl(31, 77%, 52%);
+}
+.button2{
+  color:  hsl(184, 100%, 22%);
+}
+.button3{
+  color: hsl(179, 100%, 13%);
+}
+
+img{
+  margin-bottom: 25px;
+}
+@media (min-width:768px) {
+
+
+  .container{
+min-height: 100vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+width: 900px;
+margin: auto;
+    }
+
+.section1{
+  border-radius: 10px 0 0 10px;
+}
+.section3{
+  border-radius: 0 10px 10px 0;
+}
+
+p{
+  margin-bottom: 80px;
+}
+
+div{
+  padding: 45px;
+}
+
+}
